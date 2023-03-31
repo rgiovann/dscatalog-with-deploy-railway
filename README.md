@@ -11,10 +11,12 @@ com nível de maturidade 3 (Richardson Maturity Model). O diagrama de classes es
 -   [x] Rotas protegidas por nivel de acesso do usuário (role)
 -   [x] Descrição dos endpoints (swagger) em https://dscatalog-with-deploy-railway-production.up.railway.app/swagger-ui.html#/user-resource
 -   [x] Deploy do aplicativo em cloud (railway.com), com acesso ao bando de dados Postgres
--   [x] Implementação de 37 testes unitários usando Mockito e Junit 5
+-   [x] Implementação de queries usando JPQL para filtrar produtos por nome e por categoria
 -   [x] Tratamento de diversas exceções de forma a encaminhar mensagem user-friendly para o front-end.
 -   [x] Implementação de 37 testes unitários usando Mockito e Junit 5
 
 
 <p><h3> Os requests do Postman estão disponíveis para importação no arquivo <i>DSCATALOG.postman_collection.json</i>
 </strong></a>.<br></h3>
+
+![diagrama de classes](https://github.com/rgiovann/image-repo/blob/main/dscatalog_class_diagram.jpg)
